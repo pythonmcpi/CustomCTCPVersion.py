@@ -1,6 +1,6 @@
 import znc
 
-class customctcpversion(znc.Module):
+class customctcp(znc.Module):
     description = "Try to append custom text to ctcp"
     module_types = [znc.CModInfo.UserModule, znc.CModInfo.NetworkModule]
 
